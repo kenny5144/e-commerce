@@ -1,4 +1,25 @@
-.logo{
-    width: 2rem;
-    height: 2rem;
+.login {
+  text-align: center;
+  align-items: center;
+  width: 70%;
+}
+.login-button button {
+  margin-right: 1em;
+}
+.login-button span {
+  margin-right: 1rem;
+  font: 1rem;
+}
+.login h1 {
+  margin-top: 10rem;
+  color: blue;
+}
+@media (min-width: 1440px) {
+  .login {
+    width: 50%;
+  }
+
+  .email {
+    margin-bottom: 1rem;
+  }
 }
