@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #006bb3;
+    --neutral-color: #fbfff1;
+    --secondary-color: #10374d;
+  }
+
+ .product-side{
+    text-align: center;
+
+} 
+.product-side h1{
+    font-size: .8rem;
+    margin-top: 2rem;
+}
+.product-p{
+    font-size: 2rem;
+}
+.price{
+    display: flex;
+    justify-content: center;
+ 
+}
+.price p{
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+.price button{
+    border: none;
+    background-color: white;
+}
+.Feature{
+    background-color: var(--primary-color);
+    height: 22vh;
+    width: auto;
+    margin-top: 3rem;
+    color: var(--neutral-color);
+
+    
+}
+.Feature h3{
+    text-align: center;
+}
+.item-features{
+    list-style-type: none;
+    
+
+}
+.item-features li{
+    margin-bottom: 0rem;
+    padding: .1rem;
+}
+
+/* h4{
+    color: var(--primary-color);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.our-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+   
+} 
+.feature-cards{
+    width: 12rem;
+    margin: 1rem;
+    display: flex;
+}

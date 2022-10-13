@@ -76,7 +76,7 @@
   width: 3rem;
 }
 .carousel-task {
-  height: 30vh;
+  height: 40vh;
   background-color: var(--primary-color);
   width: auto;
   text-align: center;
@@ -87,6 +87,9 @@
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+}
+.reviews{
+  padding: 1rem 3rem 1rem 3rem ;
 }
 
 .carousel-imgdiv p {

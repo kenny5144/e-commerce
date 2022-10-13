@@ -5,8 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+   
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
   </head>
-  <body>
+  <body >
+  
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="home.html">
@@ -33,24 +41,11 @@
             <li class="nav-item">
               <a class="nav-link" href="service.html">Service</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="products.html"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Products
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Product</a>
+            </li>
+            
+              
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact Us</a>
@@ -62,5 +57,101 @@
         </div>
       </div>
     </nav>
+    <div class="container">
+      <div class="row justify-content-center">
+      <div class="col-md-6 text-center mb-5">
+      <h2 class="heading-section">Contact Us</h2>
+      </div>
+      </div>
+      <div class="row justify-content-center">
+      <div class="col-lg-10 col-md-12">
+      <div class="wrapper">
+      <div class="row no-gutters">
+      <div class="col-md-7 d-flex align-items-stretch">
+      <div class="contact-wrap w-100 p-md-5 p-4">
+      
+      <div id="form-message-warning" class="mb-4"></div>
+      
+      <form method="POST" id="contactForm" name="contactForm">
+      <div class="row">
+      <div class="col-md-6">
+      <div class="form-group">
+      <input type="text" class=" mb-2 form-control" name="name" id="name" placeholder="Name">
+      </div>
+      </div>
+      <div class="col-md-6">
+      <div class="form-group">
+      <input type="email" class="  form-control" name="email" id="email" placeholder="Email">
+      </div>
+      </div>
+      <div class="col-md-12">
+      <div class="form-group">
+      <input type="text" class=" mb-2 form-control" name="subject" id="subject" placeholder="Service" >
+      </div>
+      <div class="form-group">
+      <input type="text " class=" mb-2 form-control" name="How did you hear about us " id="subject" placeholder="How did you hear about us">
+      
+      </div>
+      </div>
+      <div class="col-md-12">
+      <div class="form-group">
+      <textarea name="message" class="form-control" id="message" cols="30" rows="7" placeholder="Message"></textarea>
+      </div>
+      </div>
+      <div class="col-md-12">
+      <div class="form-group">
+      <input type="submit" value="Send Message" class="btn btn-primary">
+      <div class="submitting"></div>
+      </div>
+      </div>
+      </div>
+      </form>
+      </div>
+      </div>
+      <div class="col-md-5 d-flex align-items-stretch">
+      <div class="info-wrap bg-primary w-100 p-lg-5 p-4">
+      <h3 class="mb-4 mt-md-4">Contact us</h3>
+      <div class="dbox w-100 d-flex align-items-start">
+      <div class="icon d-flex align-items-center justify-content-center">
+      <span class="fa fa-map-marker"></span>
+      </div>
+      <div class="text pl-3">
+      <p><span>Address:</span> 85 broad street New York NY 10016</p>
+      </div>
+      </div>
+      <div class="dbox w-100 d-flex align-items-center">
+      <div class="icon d-flex align-items-center justify-content-center">
+      <span class="fa fa-phone"></span>
+      </div>
+      <div class="text pl-3">
+      <p><span>Phone:</span> 9737578155</p>
+      </div>
+      </div>
+      <div class="dbox w-100 d-flex align-items-center">
+      <div class="icon d-flex align-items-center justify-content-center">
+      <span class="fa fa-paper-plane"></span>
+      </div>
+      <div class="text pl-3">
+      <p><span>Email:</span>ojok761@gmail.com </p>
+      </div>
+      </div>
+      <div class="dbox w-100 d-flex align-items-center">
+      <div class="icon d-flex align-items-center justify-content-center">
+      <span class="fa fa-globe"></span>
+      
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
