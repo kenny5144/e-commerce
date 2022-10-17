@@ -135,7 +135,31 @@
   }
 
   .reviews {
-    width: 50%;
-    margin-left: 15rem;
+    width: 70%;
+margin-left: 8rem;
+margin-top: 5rem;
+font-size:1.3rem ;
+  }
+}
+@media (min-width:1400px) {
+  .quote{
+    padding-top: 3rem;
+    height: 50vh;
+  }
+  .quote h1{
+    font-size: 7rem;
+  }
+  .quote h3{
+    font-size: 3rem;
+  }
+  .title-button a{
+  
+    font-size: 2rem;
+  }
+  .reviews{
+    margin-left: 12rem;
+    
+    font-size: 2rem;
+    width: 70%;
   }
 }
